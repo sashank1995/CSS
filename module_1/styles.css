@@ -1,0 +1,15 @@
+#music{
+background:red;
+}
+
+.rock .intro{
+background:rgba(130,145,140,0.75);
+font-size:50%;
+color:yellow;
+}
+
+.rock .about{
+background:rgba(120,130,170,0.25);
+font-size:40px;
+width:2em;
+}
