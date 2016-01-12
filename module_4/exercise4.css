@@ -1,0 +1,21 @@
+body{
+margin:10px 40px 100px 10px;
+}
+
+.outer .inner .core{
+padding:10px 20px 120px 20px;
+border:2px dotted green;
+border-radius:5px;
+background:DarkGrey;
+}
+
+.outer .inner{
+padding: 3px 50px 50px 50px;
+border: 2px dashed blue;
+background:#fff}
+
+.outer{
+border: 2px solid yellow;
+padding: 5px 50px 50px 50px;
+background:#808080;
+}
