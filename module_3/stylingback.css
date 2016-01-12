@@ -1,5 +1,23 @@
 body{
 background-image:url('https://dridrive.files.wordpress.com/2015/04/atlas.jpg'); 
 background-repeat: no-repeat;
-background-position: 20px 30px;
+background-size:cover;
+border:10px solid transparent;
+/*border-style:solid;
+border-width:5px; */
+}
+
+#download{
+color:white;
+font-size:30px;
+}
+
+
+.floating{
+margin-left: 150px;
+margin-top: 300px;
+width:80px;
+height:80px;
+float:left;
+padding:5px;
 }
