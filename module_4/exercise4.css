@@ -7,15 +7,19 @@ padding:10px 20px 120px 20px;
 border:2px dotted green;
 border-radius:5px;
 background:DarkGrey;
+color:red;
 }
 
 .outer .inner{
 padding: 3px 50px 50px 50px;
 border: 2px dashed blue;
-background:#fff}
+background:#fff;
+color:red;
+}
 
 .outer{
 border: 2px solid yellow;
 padding: 5px 50px 50px 50px;
 background:#808080;
+color:red;
 }
