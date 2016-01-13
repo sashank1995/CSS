@@ -2,7 +2,7 @@ body{
 background-image:url('https://dridrive.files.wordpress.com/2015/04/atlas.jpg'); 
 background-repeat: no-repeat;
 background-size:cover;
-border: 4px solid #000;
+/*border: 4px solid #000;*/
 }
 
 #download{
@@ -11,10 +11,48 @@ font-size:30px;
 }
 
 
-.floating{
-margin-left: 250px;
-margin-top: 220px;
-width:50px;
-height:50px;
+#floating1{
+left: 300px;
+top: 300px;
+position:fixed;
+width:120px;
+height:120px;
 float:left;
 }
+
+#floating2{
+left: 500px;
+top: 300px;
+position:fixed;
+width:120px;
+height:120px;
+float:left;
+}
+
+#floating3{
+left: 700px;
+top: 300px;
+position:fixed;
+width:120px;
+height:120px;
+float:left;
+}
+
+#floating4{
+left: 900px;
+top: 300px;
+position:fixed;
+width:120px;
+height:120px;
+float:left;
+}
+
+#floating5{
+left: 1100px;
+top: 300px;
+position:fixed;
+width:120px;
+height:120px;
+float:left;
+}
+

@@ -1,19 +1,25 @@
+#open{
+margin-bottom:0px;
+}
+
 body{
 margin-left:250px;
-margin-right:250px;
+margin-right:400px;
+margin-top:60px;
 }
 
 
 #grumpy{
 font-family: 'Slabo 27px', serif;
-font-size:40px;
+font-size:45px;
 color:rgba(0,0,0,0.65);
+margin-right:350px;
 }
 
 
 .floating .line{
-background-color:brown;
-height:50px;
+background-color:black;
+height:38px;
 width:2px;
 float:left;
 /*display:inline-block; */
@@ -30,12 +36,20 @@ font-style:normal;
 
 
 .dream{
-font-size:22px;
+font-size:18px;
 font-family:Open Sans, sans-serif;
+padding-bottom:8px;
+margin-right:150px;
 }
 
-.floating .bedding{
-font-size:15px;
+.floating #bedding{
+font-size:14px;
+padding-bottom:15px;
+padding-left:18px;
+margin-right:150px;
 /* display:inline-block; */
 }
-
+ 
+.last{
+margin-right:150px;
+}
