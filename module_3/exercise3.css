@@ -1,8 +1,6 @@
-body{
-background-image:url('https://dridrive.files.wordpress.com/2015/04/atlas.jpg'); 
-background-repeat: no-repeat;
-background-size:cover;
-/*border: 4px solid #000;*/
+.main #atlas{
+border: 10px solid #A9A9A9;
+margin:20px;
 }
 
 #download{
@@ -10,49 +8,15 @@ color:white;
 font-size:30px;
 }
 
-
-#floating1{
-left: 300px;
-top: 300px;
-position:fixed;
-width:120px;
-height:120px;
-float:left;
+.main .inside{
+padding:20px;
 }
 
-#floating2{
-left: 500px;
-top: 300px;
-position:fixed;
-width:120px;
-height:120px;
-float:left;
+.main .inside .inside_main{
+padding:20px;
 }
 
-#floating3{
-left: 700px;
-top: 300px;
-position:fixed;
-width:120px;
-height:120px;
-float:left;
+.main .insidie_main .browser{
+width:10px;
+height:10px;
 }
-
-#floating4{
-left: 900px;
-top: 300px;
-position:fixed;
-width:120px;
-height:120px;
-float:left;
-}
-
-#floating5{
-left: 1100px;
-top: 300px;
-position:fixed;
-width:120px;
-height:120px;
-float:left;
-}
-
