@@ -7,14 +7,10 @@ background:blue;
 display:inline;
 }
 
-.first, .second{
+.in {
 background:green;
-width:50%;
 display:inline-block;
-}
-
-.first .in, .second .in{
+width:630px;
 color:white;
 }
-
 
