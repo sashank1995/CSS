@@ -1,22 +1,50 @@
-.main #atlas{
-border: 10px solid #A9A9A9;
-margin:20px;
+.mainp{
+background-image:url('https://dridrive.files.wordpress.com/2015/04/atlas.jpg');
+background-repeat: no-repeat;
+background-size:100% 100%;
+/*-webkit-border-radius: 10px;
+-moz-border-radius:10px;
+  border-radius: 10px;
+  border: none;*/
+border:25px solid #3465A4;
+height:650px;
 }
 
-#download{
+h1{
 color:white;
-font-size:30px;
+text-align:center;
 }
 
-.main .inside{
-padding:20px;
+.prim .browser{
+float:left;
+top:50%;
 }
 
-.main .inside .inside_main{
-padding:20px;
+.one, .two, .three, .four, .five{
+position:absolute;
 }
 
-.main .insidie_main .browser{
-width:10px;
-height:10px;
+.one{
+top:38%;
+left:18%;
+}
+
+.two{
+top:38%;
+left:32%;
+}
+
+.three{
+top:38%;
+left:46%;
+}
+
+.four{
+top:38%;
+left:60%;
+}
+
+.five{
+top:38%;
+left:74%;
 }
