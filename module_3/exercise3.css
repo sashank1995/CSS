@@ -1,13 +1,13 @@
-.mainp{
+body{
+margin:0px;
+}
+
+#mainp{
+border:25px solid #3465A4;
 background-image:url('https://dridrive.files.wordpress.com/2015/04/atlas.jpg');
 background-repeat: no-repeat;
 background-size:100% 100%;
-/*-webkit-border-radius: 10px;
--moz-border-radius:10px;
-  border-radius: 10px;
-  border: none;*/
-border:25px solid #3465A4;
-height:650px;
+height:750px;
 }
 
 h1{
