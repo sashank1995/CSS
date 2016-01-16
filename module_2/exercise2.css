@@ -1,25 +1,25 @@
 #open{
 margin-bottom:0px;
+border-bottom:dotted black;
 }
 
 body{
-margin-left:250px;
-margin-right:400px;
-margin-top:60px;
+margin:70px 450px;
 }
 
 
 #grumpy{
 font-family: 'Slabo 27px', serif;
-font-size:45px;
+font-size:50px;
 color:rgba(0,0,0,0.65);
-margin-right:350px;
+margin-top:30px;
 }
 
 
 .floating .line{
+position:absolute;
 background-color:black;
-height:38px;
+height:6%;
 width:2px;
 float:left;
 /*display:inline-block; */
@@ -39,17 +39,12 @@ font-style:normal;
 font-size:18px;
 font-family:Open Sans, sans-serif;
 padding-bottom:8px;
-margin-right:150px;
 }
 
 .floating #bedding{
 font-size:14px;
 padding-bottom:15px;
-padding-left:18px;
-margin-right:150px;
+padding-left:16px;
 /* display:inline-block; */
 }
  
-.last{
-margin-right:150px;
-}
