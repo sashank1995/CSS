@@ -1,0 +1,82 @@
+p.p1:before{
+background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
+background-size:18px 20px;
+background-repeat:no-repeat;
+position:relative;
+top:9px;
+padding:10px;
+margin:8px;
+content:'';
+}
+
+.sm, .graphs{
+display:inline-block;
+margin:50px;
+}
+
+.graphs{
+position:absolute;
+left:60%;
+margin:20px;
+}
+
+ul{
+list-style-type:none;
+}
+
+li{
+padding:16px;
+}
+
+/*li::before(2){
+position:absolute;
+border-top:10px solid black;
+border-bottom:10px solid black;
+border-left:100px solid black;
+}*/
+
+
+.graphs li::before{
+position:absolute;
+width:20px;
+background-color:black;
+height:1px;
+content:'';
+left:10px;
+}
+
+li::before::after{
+background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
+background-size:18px 20px;
+background-repeat:no-repeat;
+position:absolute;
+top:9px;
+padding:10px;
+margin:8px;
+content:'';
+}
+
+
+.sm li::before{
+position:absolute;
+width:30px;
+background-color:black;
+height:1px;
+content:'';
+left:60px;
+}
+
+.vline.one{
+width:1px;
+background-color:black;
+height:2em;
+left:10%;
+}
+.vline.two{
+position:absolute;
+width:1px;
+background-color:black;
+height:8em;
+left:4%;
+top:27%;
+}

@@ -1,0 +1,48 @@
+.main{
+margin:10px;
+}
+
+.button, .list{
+display:inline-block;
+}
+
+.button{
+position:relative;
+left:50%;
+border:1px solid black;
+padding:30px;
+margin:10px;
+}
+
+.button p{
+text-align:center;
+}
+
+#but{
+background:#0066FF;
+color:white;
+padding:6px;
+text-align:center;
+width:290px;
+height:30px;
+border-radius:5px;
+}
+
+p.list:before, p.list:after{
+content:'';
+height:0;
+width:0;
+}
+
+p.list:before{
+position:relative;
+background:green;
+background-size:20px 20px;
+width:20px;
+height:20px;
+border-radius:50%;
+top:10px;
+margin:10px;
+padding:10px;
+}
+
