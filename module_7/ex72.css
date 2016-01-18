@@ -12,10 +12,11 @@ content:'';
 .sm, .graphs{
 display:inline-block;
 margin:50px;
+position:absolute;
+top:20%;
 }
 
 .graphs{
-position:absolute;
 left:60%;
 margin:20px;
 }
@@ -59,24 +60,27 @@ content:'';
 
 .sm li::before{
 position:absolute;
-width:30px;
+width:2.5em;
 background-color:black;
 height:1px;
 content:'';
-left:60px;
+left:5%;
 }
 
 .vline.one{
+position:absolute;
 width:1px;
 background-color:black;
-height:2em;
-left:10%;
+height:14em;
+left:62%;
+top:30%;
 }
+
 .vline.two{
 position:absolute;
 width:1px;
 background-color:black;
-height:8em;
-left:4%;
-top:27%;
+height:7.5em;
+left:5%;
+top:38%;
 }
