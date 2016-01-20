@@ -1,164 +1,151 @@
 body,html{
-margin:0px;
-background:#F2F6FA;
+	margin:0px;
+	background:#F2F6FA;
 }
 
 .main{
-margin:10px;
-height:100%;
+	margin:10px;
 }
 
-/*.head >p{
-font-size:24px;
-}*/
 p{
-margin:0 10px 0 0;
-}
-
-.head{
-height:20%;
-width:100%;
+	margin:0 10px 0 0;
 }
 
 .content{
-height:80%;
+	margin:80px 0 0 0;
 }
 
 .sm, .graphs{
-display:inline-block;
-vertical-align:top;
-}
-
-.graphs{
-position:absolute;
-left:600px;
-top:130px;
-}
-
-.sm{
-position:absolute;
-left:100px;
-top:130px;
+	display:inline-block;
+	width:49.5%;
 }
 
 .sm>p, .graphs>p{
-font-size:25px;
-background:#F2F6FA;
+	font-size:25px;
+	background:#F2F6FA;
 }
 
 ul{
-list-style-type:none;
+	list-style-type:none;
 }
 
 p, img, span {
-display:inline-block;
+	display:inline-block;
+	font-size:15px;
 } 
 
 li{
-padding:20px 0 0 0;
-border-left:3px solid #CCCCCC;
-height:20px;
-margin:0 0 0 10px;
+	border-left:3px solid #CCCCCC;
+	height:39px;
 }
 
 img{
-width:15px;
-height:15px;
-margin:10px 10px 0 10px;
+	width:15px;
+	height:15px;
+	margin:10px 10px 0 10px;
 }
 
 span{
-background:#CCCCCC;
-width:100px;
-height:1px;
-display:inline-block;
-margin:0 0 5px 0;
+	background:#CCCCCC;
+	width:100px;
+	height:1px;
+	display:inline-block;
+	margin:0 0 5px 0;
 }
 
-
-/*p.p1:before{
-background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
-background-size:18px 20px;
-background-repeat:no-repeat;
-position:relative;
-top:9px;
-padding:10px;
-margin:8px;
-content:'';
+li:last-child{
+	border:none;
 }
 
-.sm, .graphs{
-display:inline-block;
-margin:50px;
-position:absolute;
-top:20%;
+.extra{
+	background:#CCCCCC;
+	width:3px;
+	height:20px;
 }
 
-.graphs{
-left:60%;
-margin:20px;
-}
+	/*p.p1:before{
+	background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
+	background-size:18px 20px;
+	background-repeat:no-repeat;
+	position:relative;
+	top:9px;
+	padding:10px;
+	margin:8px;
+	content:'';
+	}
 
-ul{
-list-style-type:none;
-}
+	.sm, .graphs{
+	display:inline-block;
+	margin:50px;
+	position:absolute;
+	top:20%;
+	}
 
-li{
-padding:16px;
-}
+	.graphs{
+	left:60%;
+	margin:20px;
+	}
 
--->li::before(2){
-position:absolute;
-border-top:10px solid black;
-border-bottom:10px solid black;
-border-left:100px solid black;
-}-->
+	ul{
+	list-style-type:none;
+	}
 
+	li{
+	padding:16px;
+	}
 
-.graphs li::before{
-position:absolute;
-width:20px;
-background-color:black;
-height:1px;
-content:'';
-left:10px;
-}
-
-li::before::after{
-background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
-background-size:18px 20px;
-background-repeat:no-repeat;
-position:absolute;
-top:9px;
-padding:10px;
-margin:8px;
-content:'';
-}
+	-->li::before(2){
+	position:absolute;
+	border-top:10px solid black;
+	border-bottom:10px solid black;
+	border-left:100px solid black;
+	}-->
 
 
-.sm li::before{
-position:absolute;
-width:2.5em;
-background-color:black;
-height:1px;
-content:'';
-left:5%;
-}
+	.graphs li::before{
+	position:absolute;
+	width:20px;
+	background-color:black;
+	height:1px;
+	content:'';
+	left:10px;
+	}
 
-.vline.one{
-position:absolute;
-width:1px;
-background-color:black;
-height:14em;
-left:62%;
-top:30%;
-}
+	li::before::after{
+	background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
+	background-size:18px 20px;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:9px;
+	padding:10px;
+	margin:8px;
+	content:'';
+	}
 
-.vline.two{
-position:absolute;
-width:1px;
-background-color:black;
-height:7.5em;
-left:5%;
-top:38%;
-}*/
+
+	.sm li::before{
+		position:absolute;
+		width:2.5em;
+		background-color:black;
+		height:1px;
+		content:'';
+		left:5%;
+	}
+
+	.vline.one{
+		position:absolute;
+		width:1px;
+		background-color:black;
+		height:14em;
+		left:62%;
+		top:30%;
+	}
+
+	.vline.two{
+		position:absolute;
+		width:1px;
+		background-color:black;
+		height:7.5em;
+		left:5%;
+		top:38%;
+	}*/

@@ -1,53 +1,95 @@
 body{
-width:100%;
-height:100%;
+	margin:0;
+	font-size:0;
 }
 
 .main{
-width:100%;
-height:100%;
-background-size:100% 100%;
-margin:0px;
+	margin:30px 0 0 0;
 }
 
 .one, .two, .three{
-width:32%;
-display:inline-block;
-position:relative;
+	width:33.3%;
+	display:inline-block;
+	text-align:center;
 }
 
 .circle{
-position:absolute;
-left:50%;
-background:#5BBEE1;
-width:20px;
-height:20px;
-border-radius:50%;
+	background:#5BBEE1;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	display:inline-block;
 }
 
 .line{
-position:absolute;
-background:#5BBEE1;
-width:100%;
-height:3px;
-left:53%;
-top:10px;
+	background:#5BBEE1;
+	width:100%;
+	height:2px;
+	left:50%;
+	display:inline-block;
+	position:relative;
+	top:-9px;
 }
 
 .text{
-position:absolute;
-left:50%;
-top:13px;
+	font-size:15px;
+} 
+
+.text1{
+	font-size:12px;
+	color:#B0ADB1;
+}
+
+.three .circle{
+	background:grey;
+}
+
+.two .line{
+	background:grey;
+	z-index:-1;
+}
+/*
+.one, .two, .three{
+	width:32%;
+	display:inline-block;
+	position:relative;
+}
+
+.circle{
+	position:absolute;
+	left:50%;
+	background:#5BBEE1;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+}
+
+.line{
+	position:absolute;
+	background:#5BBEE1;
+	width:100%;
+	height:3px;
+	left:53%;
+	top:10px;
+}
+
+.text{
+	position:absolute;
+	left:50%;
+	top:13px;
 }
 
 
 .text1{
-position:absolute;
-left:50%;
-top:47px;
-color:#B0ADB1;
-text-size:7px;
+	position:absolute;
+	left:50%;
+	top:47px;
+	color:#B0ADB1;
+	text-size:7px;
 }
+*/
+
+	
 /*.c1{
 background:blue;
 width:2em;
@@ -122,29 +164,29 @@ top:5%;
 }
 
 p.tp1:after{
-color:#9799a7;
-content: "Oct 31";
-font-size:11px;
-display:block;
-clear:both;
+	color:#9799a7;
+	content: "Oct 31";
+	font-size:11px;
+	display:block;
+	clear:both;
 }
 
 
 p.tp2:after{
-color:#9799a7;
-content: "Nov 09";
-font-size:11px;
-display:block;
-clear:both;
+	color:#9799a7;
+	content: "Nov 09";
+	font-size:11px;
+	display:block;
+	clear:both;
 }
 
 
 p.tp3:after{
-color:#9799a7;
-content: "Nov 24";
-font-size:11px;
-display:block;
-clear:both;
+	color:#9799a7;
+	content: "Nov 24";
+	font-size:11px;
+	display:block;
+	clear:both;
 }*/
 
 
