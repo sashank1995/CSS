@@ -10,20 +10,26 @@ margin:0px;
 
 .head{
 position:absolute;
-width:100%;
-top:0px;
+right:0;
+left:0;
+top:0;
 background:#283446;
 height:50px;
 }
 
-.logo p{
+.logo{
+float:left;
+color:white;
+}
+
+/*.logo p{
 margin-left:5px;
 padding:7px 2px;
 display:inline-block;
 color:white;
-}
+}*/
 
-.head .nav{
+/*.head .nav{
 position:absolute;
 top:25px;
 left:70%;
@@ -31,24 +37,30 @@ left:70%;
 
 .nav, .logo{
 display:inline-block;
+}*/
+
+nav.fn{
+float:right;
+margin-right:15px;
 }
 
-ul {
+nav.fn ul{
 list-style-type: none;
 margin:0;
 padding:0;
 }
 
-li {
-display:inline;
+nav.fn li {
+display:inline-block;
+padding:20px 0;
 }
 
-.nav li a {
+nav.fn li a {
 color: white;
-padding: 10px;
+padding: 15px 5px 15px 8px;
 }
 
-.nav .active {
+nav.fn .active {
 color:black;
 background-color:#fff;
 }
@@ -58,11 +70,17 @@ position:absolute;
 left:0px;
 width:200px;
 top:50px;
-height:900px;
 background:#DFE7D4;
+bottom:50px;
 }
 
-.left li a{
+nav.sn ul{
+list-style-type:none;	
+margin:0;
+padding:0;
+}
+
+nav.sn li a{
 color:#000;
 display:block;
 border-bottom: 1px solid black;
@@ -72,10 +90,9 @@ padding:10px;
 .right{
 position:absolute;
 left:200px;
-width:calc(100% - 200px);
 top:50px;
-height:900px;
 background:#F3F3F3;
+bottom:50px;
 }
 
 .foot{
@@ -84,7 +101,8 @@ background:#283446;
 margin-bottom:0px;
 bottom:0px;
 text-align:center;
-width:100%;
+right:0;
+left:0;
 height:50px;
 }
 
