@@ -1,89 +1,76 @@
 body{
 margin:0px;
-background:#F2F6FA;}
-
-.main{
-	margin-top:10px;
+background:#F2F6FA;
 }
 
 .list{
-width:40%;
+width:400px;
 height:100%;
 }
 
 .button, .list{
 display:inline-block;
-	vertical-align:middle;
 }
 
 .button{
 position:absolute;
-left:50%;
-top:30%;
+left:500px;
 border:1px solid black;
 padding:30px;
-margin:5px;
+margin:51px;
+top:115px;
 }
 
 .button p{
-	text-align:center;
+text-align:center;
 }
 
 #but{
-background:#0066FF;
+background:#5ABDEB;
 color:white;
 padding:6px;
-	text-align:center;
+text-align:center;
 width:290px;
 height:30px;
-       border-radius:5px;
+border-radius:5px;
 }
 
-.circle, .list p{
+/*.circle, .list p{
 display:inline-block;
-}
-
-.circle, .line{
-display:block;
 }
 
 .list p, .line{
 display:block;
-}
+}*/
 
-ul{
-	list-style-type:none;
-}
+.list p{
+position:relative;
+left:110px;
+color:#9B9B9B;
+}	
 
-ul p{
-color:#ABABAB;
-      font-size:20px;
-}
-
-ul li .circle{
+.circle{
 background:#5BB84E;
 color:white;
 width:25px;
-      text-align:center;
-      vertical-align:middle;
+text-align:center;
 height:25px;
-       border-radius:50%;
+border-radius:50%;
 border:3px solid #9B9B9B;
-float:left;
-margin:0 25px 15px 0;
-}
-
-li{
-padding:5px 0 10px 0;
+display:inline-block;
+margin:0 0 0 45px;
+position:relative;
+top:40px;
 }
 
 .line{
 position:absolute;
-left:55px;
-     margin-top:25px;
+left:60px;
+margin-top:68px;
 background:#9B9B9B;
 width:3.5px;
 height:54px;
+z-index:-1;
 }
 
 

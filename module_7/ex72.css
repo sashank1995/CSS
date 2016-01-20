@@ -1,16 +1,27 @@
 body,html{
 margin:0px;
-width:100%;
-height:600px;
 background:#F2F6FA;
 }
 
 .main{
 margin:10px;
+height:100%;
 }
 
-.main >p{
-font-size:27px;
+/*.head >p{
+font-size:24px;
+}*/
+p{
+margin:0 10px 0 0;
+}
+
+.head{
+height:20%;
+width:100%;
+}
+
+.content{
+height:80%;
 }
 
 .sm, .graphs{
@@ -20,18 +31,18 @@ vertical-align:top;
 
 .graphs{
 position:absolute;
-left:60%;
-top:20%;
+left:600px;
+top:130px;
 }
 
 .sm{
 position:absolute;
-left:15%;
-top:20%;
+left:100px;
+top:130px;
 }
 
 .sm>p, .graphs>p{
-font-size:25;
+font-size:25px;
 background:#F2F6FA;
 }
 
@@ -40,11 +51,11 @@ list-style-type:none;
 }
 
 p, img, span {
-display:inline;
+display:inline-block;
 } 
 
 li{
-padding:30px 0 0 0;
+padding:20px 0 0 0;
 border-left:3px solid #CCCCCC;
 height:20px;
 margin:0 0 0 10px;
@@ -53,15 +64,15 @@ margin:0 0 0 10px;
 img{
 width:15px;
 height:15px;
-margin:2px 8px 0;
+margin:10px 10px 0 10px;
 }
 
 span{
 background:#CCCCCC;
 width:100px;
 height:1px;
-float:left;
-margin:15px 0 0 0;
+display:inline-block;
+margin:0 0 5px 0;
 }
 
 
