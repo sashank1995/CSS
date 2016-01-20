@@ -1,105 +1,124 @@
 body{
-margin:0px;
-}
-
-@media all and (min-width:420px){
-
+	margin:0px;
+	height:716px;
+	width:100%;
 }
 
 .main{
-height:100%;
-width:100%;
-margin:0px;
+	margin:0px;
 }
 
 .aw{
-background:#0275D8;
-margin:0px;
-top:0px;
+	background:#0275D8;
+	margin:0px;
+	top:0px;
+	height:45px;
 }
 
 .aw p{
-text-align:center;
-color:#fff;
-padding:10px 0;
-font-size:20px;
+	text-align:center;
+	color:#fff;
+	padding:10px 0;
+	margin:0;
+	font-size:20px;
 }
 
-.navi{
-background:#FFF;
-position:absolute;
-width:100%;
-height:25px;
+.head{
+	background:#FFF;
+	left:0;
+	right:0;
+	height:45px;
 }
 
-.first, .second{
-display:inline-block;
+.head nav.first, .head nav.second{
+	display:inline-block;
+	height:45px;
+}	
+
+.head nav.second{
+	float:right;
+	margin: 0 30px 0 0;
 }
 
-.second{
-position:absolute;
-top:15%;
-left:80%;
-}
-
-.first{
-position:absolute;
-top:15%;
-left:10%;
+nav.first{
+	float:left;
 }
 
 ul{
-list-style-type:none;
+	list-style-type:none;
+	margin:10px 0;
 }
 
 li{
-display:inline;
-padding:7px;}
+	display:inline-block;
+	padding:7px;
+}
 
-.body{
-background:#660066;
-padding:24px 0;
+li a{
+	color:black;	
+}
+
+.content{
+	position:relative;
+	background:#5C4283;
+	height:468px;
+	left:0;
+	right:0;
+}
+
+.set{
+	padding:10px 0;	
+	position:relative;
+	top:10%;
 }
 
 .logo{
-text-align:center;
-font-size:60px;
-color:#fff;
-border: 2px solid #fff;
-border-radius:5px;
-padding:2px;
-margin:50px 550px;
+	text-align:center;
+	font-size:60px;
+	font-weight:bold;
+	color:#fff;
+	border: 2px solid #fff;
+	border-radius:10px;
+	padding:20px 20px;
+/*	margin:0px 600px;*/
+	margin:0 auto 30px;
+}
+
+.logo p{
+	margin:1px 0px;
 }
 
 .text{
-margin:50px 200px;
-color:#fff;
-font-size:22px;
+	margin:30px 250px;
+	color:#fff;
+	font-size:22px;
 }
 
 .download{
-border:2px solid #fff;
-padding:2px;
-border-radius:5px;
-text-align:center;
-color:#fff;
-margin-top:50px;
-margin-left:550px;
-margin-right:550px;
-margin-bottom:10px;
+	border:2px solid #fff;
+	padding:2px;
+	border-radius:5px;
+	text-align:center;
+	color:#fff;
+	margin:20px 550px 10px 550px;
 }
 
+.last{
+	bottom:150px;	
+}
 
 .last>p:first-child{
-font-size:25px;
-text-align:center;
+	font-size:25px;
+	text-align:center;
+	margin-bottom:0px;
 }
 
 .current{
-color:#B8B8B8;
-text-align:center;
+	color:#B8B8B8;
+	text-align:center;
 }
 
 .last p:nth-child(2){
-margin:0 300px;
+	margin:0 300px;
 }
+
