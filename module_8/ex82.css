@@ -22,76 +22,17 @@ font-size:20px;
 }
 
 .first, .complex{
-display:inline-block;
+	display:inline-block;
 margin-left:20px;
 }
 
-.complex{
+.first{
+float:left;
+}
+/*.complex{
 margin-left:1000px;
-}
+}*/
 
-input {
-display: none;
-}
-
-label,ul {
-border: 1px solid #cecfd5;
-border-radius: 6px;
-}
-
-label {
-    color: #000;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    padding: 5px 9px;
-    transition: all .15s ease;
-}
-
-label:hover {
-   color: #ff7b29;
-}
-
-input:checked + label {
-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
-   color: #9799a7;
-}
-
-nav {
-max-height: 0;
-overflow: hidden;
-transition: all .15s ease;
-}
-
-input:checked ~ nav {
-max-height: 600px;
-}
-
-ul {
-list-style: none;
-margin: 8px 0 0 0;
-padding: 0;
-width: 100%;
-}
-
-li {
-border-bottom: 1px solid #cecfd5;
-}
-
-li:last-child {
-border-bottom: 0;
-}
-
-a {
-color: #000;
-display: block;
-padding: 6px 12px;
-text-decoration:none;	
-}
- 
- a:hover {
-color: #ff7b29;
-}
 
 .body{
 background:#660066;
