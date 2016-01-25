@@ -29,7 +29,7 @@ ul{
 	list-style-type:none;
 }
 
-p, img, span {
+p, .fa , span {
 	display:inline-block;
 	font-size:15px;
 } 
@@ -39,7 +39,7 @@ li{
 	height:39px;
 }
 
-img{
+.fa{
 	width:15px;
 	height:15px;
 	margin:10px 10px 0 10px;
@@ -63,6 +63,13 @@ li:last-child{
 	height:20px;
 }
 
+.ab{
+color:#CDCDCD;
+}
+
+.cd{
+color:#79B14E;
+}
 	/*p.p1:before{
 	background-image:url('http://www.iconsdb.com/icons/preview/guacamole-green/checkmark-xxl.png');
 	background-size:18px 20px;
